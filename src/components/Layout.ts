@@ -1,5 +1,11 @@
 import {StyleProp, ViewStyle} from "react-native";
 
+export const BackgroundColor: (color: string) => StyleProp<ViewStyle> = (color) => {
+    return {
+        backgroundColor: color
+    }
+};
+
 export const Absolute: StyleProp<ViewStyle> = {
     flex: 1, flexGrow: 1,
     position: 'absolute',

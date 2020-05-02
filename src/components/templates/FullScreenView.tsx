@@ -1,7 +1,7 @@
 import React from 'react';
 import Div100vh from "react-div-100vh";
-import {View} from "react-native";
-import {FullStretch} from "../Layout";
+import {View, Text} from "react-native";
+import {Absolute, FullStretch} from "../Layout";
 
 const FullScreenView = (props: {
     children?: React.ReactNode
