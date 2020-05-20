@@ -1,7 +1,16 @@
 import {Dialog as PaperDialog, Paragraph} from "react-native-paper";
 import {View} from "react-native";
 import React from "react";
-import {Absolute, FullStretch, Position} from "../../Layout";
+import {FullStretch} from "../../Layout";
+
+const Box: React.FC<{
+
+}> = (props) => {
+    console.log(props)
+    return (
+        <View></View>
+    )
+}
 
 const Dialog: React.FC<{
     title: string,
